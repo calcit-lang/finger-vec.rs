@@ -1,0 +1,17 @@
+[package]
+name = "finger_vec"
+version = "0.1.0"
+edition = "2024"
+authors = ["jiyinyiyong <jiyinyiyong@gmail.com>"]
+license = "MIT"
+description = "Persistent vector for the Calcit runtime: chunked relaxed B-tree with front and back buffers"
+homepage = "https://github.com/calcit-lang/finger-vec.rs"
+documentation = "https://docs.rs/finger_vec"
+repository = "https://github.com/calcit-lang/finger-vec.rs"
+readme = "README.md"
+keywords = ["persistent", "immutable", "vector", "rrb", "structural-sharing"]
+categories = ["data-structures"]
+
+[dependencies]
+
+[dev-dependencies]
